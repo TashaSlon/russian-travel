@@ -1,0 +1,10 @@
+.card__item {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__item {
+    padding: 25px 0 0;
+  }
+}
