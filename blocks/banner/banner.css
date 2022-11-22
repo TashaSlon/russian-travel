@@ -1,0 +1,23 @@
+.banner {
+  padding-top: 66px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    padding-top: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .banner {
+    width: 1184px;
+
+    margin: 0 auto;
+  }
+}

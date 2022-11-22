@@ -24,6 +24,11 @@
 @import url("../blocks/card/__url-title/card__url-title.css");
 @import url("../blocks/card/__url/card__url.css");
 @import url("../blocks/card/__item/card__item.css");
+@import url("../blocks/banner/banner.css");
+@import url("../blocks/banner/__image/banner__image.css");
+@import url("../blocks/banner/__title/banner__title.css");
+@import url("../blocks/banner/__subtitle/banner__subtitle.css");
+@import url("../blocks/banner/__shadow/banner__shadow.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/menu/menu.css");
