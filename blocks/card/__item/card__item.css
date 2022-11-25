@@ -5,6 +5,7 @@
 
 @media screen and (min-width: 768px) {
   .card__item {
-    padding: 25px 0 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

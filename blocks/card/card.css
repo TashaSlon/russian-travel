@@ -9,7 +9,7 @@
 @media screen and (min-width: 768px) {
   .card {
     display: grid;
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: 340px 2fr;
     grid-template-rows: min-content min-content;
     gap: 48px 28px;
 
@@ -20,9 +20,16 @@
 
 @media screen and (min-width: 1024px) {
   .card {
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: 460px 2fr;
 
     padding-left: 48px;
     padding-right: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
