@@ -1,4 +1,9 @@
 .banner__image {
+  position: relative;
+  z-index: 1;
+
+  display: block;
+
   max-width: 100%;
   height: 100%;
 
@@ -7,4 +12,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  text-decoration: none;
+}
+
+.banner__image::before {
+  content: '';
+  position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  z-index: -1;
+  background-color: #2A2C2F;
+	opacity: 0.3;
+  transition: opacity 350ms ease;
+}
+
+.banner__image:hover::before {
+	opacity: 0.8;
 }

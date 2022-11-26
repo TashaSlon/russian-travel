@@ -1,9 +1,13 @@
 .menu__link {
+  display: block;
+
   padding-top: 32px;
 
   font-size: 24px;
   font-weight: 400;
   line-height: 1;
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu__link:first-child {
@@ -19,6 +23,6 @@
 
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.13;
+    line-height: 1.125;
   }
 }
